@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#containerPrincipal {
+    width: 400px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
+.titulo {
+    color: #ff71b8;
+    border-bottom: 9px dotted #8a158a;
+}
+
+.subtitulo {
+    color: #a7a7a7;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.infoContact {
+    font-style: italic;
+}
+
+address {
+    border: 3px solid #8a158a;
+    font-style: initial;
+}
+
+ul {
+    font-style: initial;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+#correo {
+    color: green;
+}
+
+#web {
+    color: red;
+}
